@@ -1,0 +1,1 @@
+We are loading the photos from a users photo album into a collection view similar to how is done in this Apple Sample project. I can not seem to track down why the memory is growing out of control. We use the suggested PHCachingImageManager but all that results are blurry images, freezing scrolling and memory growing out of control until the application crashes.

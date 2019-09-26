@@ -15,6 +15,10 @@
 		DA47083B233CFFAE002D9976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA470839233CFFAE002D9976 /* LaunchScreen.storyboard */; };
 		DA470846233CFFAE002D9976 /* BrokenPhotoAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA470845233CFFAE002D9976 /* BrokenPhotoAlbumTests.swift */; };
 		DA470851233CFFAE002D9976 /* BrokenPhotoAlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA470850233CFFAE002D9976 /* BrokenPhotoAlbumUITests.swift */; };
+		DA47085F233CFFDA002D9976 /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47085E233CFFDA002D9976 /* PhotoAlbumViewController.swift */; };
+		DA470861233D006D002D9976 /* MosaicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA470860233D006D002D9976 /* MosaicLayout.swift */; };
+		DA470863233D0093002D9976 /* CustomPhotoAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA470862233D0093002D9976 /* CustomPhotoAlbumCell.swift */; };
+		DA470865233D00CE002D9976 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA470864233D00CE002D9976 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		DA47084C233CFFAE002D9976 /* BrokenPhotoAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokenPhotoAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA470850233CFFAE002D9976 /* BrokenPhotoAlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenPhotoAlbumUITests.swift; sourceTree = "<group>"; };
 		DA470852233CFFAE002D9976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA47085E233CFFDA002D9976 /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		DA470860233D006D002D9976 /* MosaicLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicLayout.swift; sourceTree = "<group>"; };
+		DA470862233D0093002D9976 /* CustomPhotoAlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPhotoAlbumCell.swift; sourceTree = "<group>"; };
+		DA470864233D00CE002D9976 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				DA47082E233CFFAD002D9976 /* AppDelegate.swift */,
 				DA470830233CFFAD002D9976 /* SceneDelegate.swift */,
 				DA470832233CFFAD002D9976 /* ViewController.swift */,
+				DA47085E233CFFDA002D9976 /* PhotoAlbumViewController.swift */,
+				DA470864233D00CE002D9976 /* Extensions.swift */,
+				DA470862233D0093002D9976 /* CustomPhotoAlbumCell.swift */,
+				DA470860233D006D002D9976 /* MosaicLayout.swift */,
 				DA470834233CFFAD002D9976 /* Main.storyboard */,
 				DA470837233CFFAE002D9976 /* Assets.xcassets */,
 				DA470839233CFFAE002D9976 /* LaunchScreen.storyboard */,
@@ -262,6 +274,10 @@
 				DA470833233CFFAD002D9976 /* ViewController.swift in Sources */,
 				DA47082F233CFFAD002D9976 /* AppDelegate.swift in Sources */,
 				DA470831233CFFAD002D9976 /* SceneDelegate.swift in Sources */,
+				DA470863233D0093002D9976 /* CustomPhotoAlbumCell.swift in Sources */,
+				DA470861233D006D002D9976 /* MosaicLayout.swift in Sources */,
+				DA47085F233CFFDA002D9976 /* PhotoAlbumViewController.swift in Sources */,
+				DA470865233D00CE002D9976 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
