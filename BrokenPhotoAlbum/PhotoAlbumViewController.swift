@@ -115,8 +115,10 @@ class  PhotoAlbumViewController: UIViewController,UICollectionViewDelegate,UICol
                 requestOptions.deliveryMode = .fastFormat
                 requestOptions.isNetworkAccessAllowed = true
                 requestOptions.isSynchronous = false
-                
-                self.imageManager.startCachingImages(for: tempArr, targetSize: PHImageManagerMaximumSize, contentMode: .aspectFill, options: nil)
+                let maxCellWidth =  2 * UIScreen.main.bounds.width/3
+                let targetSize = CGSize(width: maxCellWidth, height: maxCellWidth)
+
+                self.imageManager.startCachingImages(for: tempArr, targetSize: targetSize, contentMode: .aspectFill, options: nil)
                 
                 tempArr.removeAll()
                 print("Asset count after initial fetch: \(self.assets?.count)")
